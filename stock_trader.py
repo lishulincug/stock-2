@@ -13,4 +13,11 @@ if __name__ == '__main__':
         "000016",  # 上证50
         "000012",  # 国债指数
     ]
+    #均线策略
     main(ChinaStockIndexList)
+    code = [['002963', 'egold'], ['003321', 'eoil'], ['004744', 'eGEI'], ['110003', 'eSSE50'], ['110020', 'HS300'],
+                    ['110031', 'eHSI'], ['161130', 'eNASDAQ100'], ['110028', 'anxinB'], ['110022', 'eConsumption '],
+                    ['161125', 'SPX500']]
+    #趋势策略
+    #main(ChinaStockIndexList)
+    stock_trader_main(code)
